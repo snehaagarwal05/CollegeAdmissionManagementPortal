@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 
@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
    const navigate = useNavigate();
+  
 
   return (
     <div className="home">
