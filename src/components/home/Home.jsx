@@ -51,7 +51,7 @@ const Home = () => {
             and Accreditation Council)
           </li>
           <li>
-            TIE has won the title of <b>“Jewel of the East”</b> by Telegraph
+            TIE has won the title of <b>“Gold of the East”</b> by Telgraph
           </li>
           <li>
             TIE has ranked the <b>3rd best engineering college in West Bengal</b>{" "}
