@@ -9,6 +9,8 @@ import AdminDashboard from "./components/dashboards/AdminDashboard";
 import PaymentPage from "./components/dashboards/PaymentPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Admission from "./components/admission/Admission";
+import Faculty from "./components/faculty/Faculty";
+
 
 function App() {
   return (
@@ -52,7 +54,13 @@ function App() {
             </ProtectedRoute>
           }
         />
-      </Routes>
+        <Route 
+          path="/faculty" 
+          element={
+            <Faculty />
+          }
+        />
+     </Routes>
     </Router>
   );
 }
