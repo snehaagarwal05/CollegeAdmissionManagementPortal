@@ -10,7 +10,7 @@ import PaymentPage from "./components/dashboards/PaymentPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Admission from "./components/admission/Admission";
 import Faculty from "./components/faculty/Faculty";
-
+import CampusLife from "./components/campus/CampusLife";
 
 function App() {
   return (
@@ -58,6 +58,12 @@ function App() {
           path="/faculty" 
           element={
             <Faculty />
+          }
+        />
+        <Route
+          path="/campus-life"
+          element={
+          <CampusLife />
           }
         />
      </Routes>
