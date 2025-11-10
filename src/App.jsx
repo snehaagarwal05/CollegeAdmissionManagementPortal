@@ -11,6 +11,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Admission from "./components/admission/Admission";
 import Faculty from "./components/faculty/Faculty";
 import CampusLife from "./components/campus/CampusLife";
+import AdmissionForm from "./components/admissionPage/AdmissionForm";
 
 function App() {
   return (
@@ -66,6 +67,12 @@ function App() {
           <CampusLife />
           }
         />
+      <Route
+        path="/admissionPage"
+        element={
+          <AdmissionForm/>
+        }
+      />
      </Routes>
     </Router>
   );
