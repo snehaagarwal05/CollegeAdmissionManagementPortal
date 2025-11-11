@@ -12,6 +12,9 @@ import Admission from "./components/admission/Admission";
 import Faculty from "./components/faculty/Faculty";
 import CampusLife from "./components/campus/CampusLife";
 import AdmissionForm from "./components/admissionPage/AdmissionForm";
+import Department from "./components/department/Department";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -70,9 +73,16 @@ function App() {
       <Route
         path="/admissionPage"
         element={
-          <AdmissionForm/>
+          <AdmissionForm />
         }
       />
+
+      <Route path="/department" element={<Department />} />
+
+      <Route path="/about" element={<About />} />
+
+      <Route path="/contact" element={<Contact />} />
+        
      </Routes>
     </Router>
   );
