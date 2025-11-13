@@ -15,6 +15,7 @@ import AdmissionForm from "./components/admissionPage/AdmissionForm";
 import Department from "./components/department/Department";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import NIRF from "./components/nirf/NIRF";
 
 function App() {
   return (
@@ -82,6 +83,13 @@ function App() {
       <Route path="/about" element={<About />} />
 
       <Route path="/contact" element={<Contact />} />
+        
+        <Route
+          path="/nirf"
+          element={
+            <NIRF />
+          }
+        />
         
      </Routes>
     </Router>
