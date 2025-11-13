@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './AdmissionPage.css';
+import './Admission.css';
 
 const Admission = () => {
   const navigate = useNavigate();
