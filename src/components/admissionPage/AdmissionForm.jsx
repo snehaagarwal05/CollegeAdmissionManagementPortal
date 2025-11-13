@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './AdmissionForm.css';
 
-const ApplicationForm = () => {
+const AdmissionForm = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     // Personal Information
@@ -453,4 +453,4 @@ const ApplicationForm = () => {
   );
 };
 
-export default ApplicationForm;
+export default AdmissionForm;
