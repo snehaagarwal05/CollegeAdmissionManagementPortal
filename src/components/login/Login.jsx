@@ -25,7 +25,8 @@ export default function Login() {
 
     if (user.role === "student") navigate("/student");
     else if (user.role === "admin") navigate("/admin");
-    else if (user.role === "teacher") navigate("/teacher");
+    else if (user.role === "facultyReviewer") navigate("/facultyReviewer");
+    else if (user.role === "admissionOfficer") navigate("/admissionOfficer");
   };
 
   return (
