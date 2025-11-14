@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Admission.css';
+import Footer from "../footer/footer";
 
 const Admission = () => {
   const navigate = useNavigate();
@@ -166,6 +167,7 @@ const Admission = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
