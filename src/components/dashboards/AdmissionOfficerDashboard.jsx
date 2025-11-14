@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { users, defaultProgress } from "./data";
 
-export default function AdminDashboard() {
+export default function AdmissionOfficerDashboard() {
   const navigate = useNavigate();
   const [studentData, setStudentData] = useState({});
 
@@ -37,39 +37,61 @@ export default function AdminDashboard() {
 
   return (
     <div className="dashboard">
-      <h2>🛠 Admission Officer Dashboard</h2>
+      <h2>🏫 Admission Officer Dashboard</h2>
 
       {Object.entries(studentData).map(([id, progress]) => {
-        const student = users.find((u) => String(u.id) === id);
+        const student = users.find((u) => u.id === id);
 
         return (
           <div key={id} className="admin-student-card">
-            <h3>{student?.name ?? "Unknown Student"} ({id})</h3>
+            <h3>
+              {student.name} ({id})
+            </h3>
 
-            {/* Document Verification */}
+            {/* Document Verified – DISABLED */}
             <label>
               <input
                 type="checkbox"
                 checked={progress.documentVerified}
-                onChange={(e) =>
-                  updateStudent(id, "documentVerified", e.target.checked)
-                }
+                disabled
               />
-              Document Verified
+              Document Verified (Admin Only)
             </label>
 
-            {/* Interview Date */}
+            {/* Interview Date – DISABLED */}
             <label>
               Interview Date:
               <input
                 type="date"
-                value={progress.interviewDate || ""}
-                onChange={(e) =>
-                  updateStudent(id, "interviewDate", e.target.value)
-                }
+                value={progress.interviewDate}
+                disabled
               />
+              <small style={{ color: "gray" }}> (Admin Only)</small>
             </label>
 
+            {/* Entrance Exam Given – EDITABLE */}
+            <label>
+              <input
+                type="checkbox"
+                checked={progress.entranceExamGiven}
+                onChange={(e) =>
+                  updateStudent(id, "entranceExamGiven", e.target.checked)
+                }
+              />
+              Entrance Exam Given
+            </label>
+
+            {/* Selected – EDITABLE */}
+            <label>
+              <input
+                type="checkbox"
+                checked={progress.selected}
+                onChange={(e) =>
+                  updateStudent(id, "selected", e.target.checked)
+                }
+              />
+              Selected
+            </label>
           </div>
         );
       })}
