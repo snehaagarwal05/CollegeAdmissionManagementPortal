@@ -65,7 +65,7 @@ const NIRF = () => {
     { rank: 4, name: 'Delta Institute of Sciences', score: 84.21, logo: '🏛️' },
     { rank: 5, name: 'Epsilon Tech College', score: 82.56, logo: '🏛️' },
     { rank: 6, name: 'Zeta Engineering Institute', score: 79.32, logo: '🏛️' },
-    { rank: 7, name: 'XYZ College', score: 78.95, logo: '🎓', highlight: true },
+    { rank: 7, name: 'TIE College', score: 78.95, logo: '🎓', highlight: true },
     { rank: 8, name: 'Theta National Institute', score: 76.48, logo: '🏛️' },
     { rank: 9, name: 'Iota Technology Hub', score: 75.23, logo: '🏛️' },
     { rank: 10, name: 'Kappa Engineering Academy', score: 73.91, logo: '🏛️' }
