@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './AdmissionForm.css';
+import './AdmissionPage.css';
 
 const AdmissionForm = () => {
   const navigate = useNavigate();
