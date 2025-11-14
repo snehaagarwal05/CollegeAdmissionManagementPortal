@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { motion } from "framer-motion";
+import Footer from "../footer/footer";
 
 const About = () => {
   return (
@@ -159,6 +160,7 @@ const About = () => {
 
         </div>
       </div>
+      <Footer />
 
     </div>
   );
