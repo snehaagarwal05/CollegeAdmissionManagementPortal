@@ -3,7 +3,8 @@ export const users = [
   { id: "s002", password: "pass2", role: "student", name: "Rahul Mehta" },
   { id: "s003", password: "pass3", role: "student", name: "Priya Sharma" },
   { id: "admin", password: "admin123", role: "admin", name: "Administrator" },
-  { id: "teacher01", password: "abc123", role: "teacher", name: "Teacher" },
+  { id: "faculty01", password: "faculty123", role: "facultyReviewer", name: "facultyReviewer" },
+  { id: "office01", password: "office123", role: "admissionOfficer", name: "admissionOfficer" },
 ];
 
 // Default progress structure per student
