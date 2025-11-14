@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../footer/footer";
 
 const slides = {
   playground: [
@@ -85,6 +86,7 @@ export default function CampusLife() {
         images={slides.hostel}
         description="Our hostels provide a comfortable, safe, and homely environment for students. With clean rooms, recreational areas, dedicated study zones, and 24/7 security, students enjoy a perfect balance of academic and personal life."
       />
+      <Footer />
     </div>
   );
 }
