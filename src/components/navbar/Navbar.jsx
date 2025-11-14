@@ -14,7 +14,7 @@ const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <div className="navbar-logo">XYZ College</div>
+      <div className="navbar-logo">TIE College</div>
 
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <ul className="nav-links">
