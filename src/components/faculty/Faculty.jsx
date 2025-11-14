@@ -1,5 +1,6 @@
 import React from "react";
 import "./Faculty.css";
+import Footer from "../footer/footer";
 
 const facultyData = [
   {
@@ -128,6 +129,7 @@ export default function Faculty() {
             <p className="faculty-email"><b>Email:</b> {faculty.email}</p>
             <p className="faculty-exp"><b>Experience:</b> {faculty.experience}</p>
             <p className="faculty-ach"><b>Achievement:</b> {faculty.achievement}</p>
+            <Footer />
           </div>
         ))}
       </div>
