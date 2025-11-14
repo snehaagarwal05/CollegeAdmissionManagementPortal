@@ -8,8 +8,7 @@ const Footer = () => {
 
       <div className="footer-content">
         <p>
-          © {new Date().getFullYear()} Technology Institute of Engineering (TIE). 
-          Designed & Developed by <span className="highlight">Renderbit Technologies</span>.
+          © {new Date().getFullYear()} Technology Institute of Engineering (TIE).
         </p>
 
         <div className="footer-links">
