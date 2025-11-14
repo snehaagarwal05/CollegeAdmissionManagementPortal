@@ -17,6 +17,7 @@ import Department from "./components/department/Department";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import NIRF from "./components/nirf/NIRF";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -92,6 +93,8 @@ function App() {
       <Route path="/about" element={<About />} />
 
       <Route path="/contact" element={<Contact />} />
+
+      <Route path="/footer" element={<Footer />} />
         
         <Route
           path="/nirf"
