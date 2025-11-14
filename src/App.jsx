@@ -27,6 +27,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/admission" element={<Admission />} />
+        <Route path="/admission-form" element={<AdmissionForm />} />
         <Route
           path="/student"
           element={
@@ -79,17 +80,9 @@ function App() {
       />
 
       <Route path="/department" element={<Department />} />
-
       <Route path="/about" element={<About />} />
-
       <Route path="/contact" element={<Contact />} />
-        
-        <Route
-          path="/nirf"
-          element={
-            <NIRF />
-          }
-        />
+      <Route path="/nirf" element={<NIRF />}/>
         
      </Routes>
     </Router>
