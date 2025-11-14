@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './NIRF.css';
+import Footer from "../footer/footer";
 
 const NIRF = () => {
   const [selectedYear, setSelectedYear] = useState('2024');
@@ -260,6 +261,7 @@ const NIRF = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
