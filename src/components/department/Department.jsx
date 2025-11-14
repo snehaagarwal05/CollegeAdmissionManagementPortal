@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Department.css";
 import { motion, AnimatePresence } from "framer-motion";
+import Footer from "../footer/footer";
 
 const allDepartments = [
   {
@@ -190,6 +191,7 @@ const Department = () => {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 };
