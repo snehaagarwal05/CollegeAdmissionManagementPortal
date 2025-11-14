@@ -94,7 +94,7 @@ const Admission = () => {
   ];
 
   const handleApplyClick = () => {
-    navigate('/admission-form');
+    navigate('/admissionPage');
   };
 
   return (
