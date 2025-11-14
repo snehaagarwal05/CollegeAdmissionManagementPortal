@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
+import Footer from "../footer/footer";
 
 
 
@@ -196,6 +197,7 @@ const Home = () => {
       >
         Login
       </button>
+       <Footer />
    
     </div>
   );
