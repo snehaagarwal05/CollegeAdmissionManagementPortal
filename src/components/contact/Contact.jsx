@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { motion } from "framer-motion";
+import Footer from "../footer/footer";
 
 const Contact = () => {
   return (
@@ -120,6 +121,7 @@ const Contact = () => {
 
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
