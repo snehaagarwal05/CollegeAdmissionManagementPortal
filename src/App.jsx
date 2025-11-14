@@ -4,14 +4,15 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Login from "./components/login/Login";
 import StudentDashboard from "./components/dashboards/StudentDashboard";
-import TeacherDashboard from "./components/dashboards/TeacherDashboard";
+import FacultyReviewerDashboard from "./components/dashboards/FacultyReviewerDashboard";
 import AdminDashboard from "./components/dashboards/AdminDashboard";
+import AdmissionOfficerDashboard from "./components/dashboards/AdmissionOfficerDashboard";
 import PaymentPage from "./components/dashboards/PaymentPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Admission from "./components/admission/Admission";
 import Faculty from "./components/faculty/Faculty";
 import CampusLife from "./components/campus/CampusLife";
-import AdmissionForm from "./components/admissionPage/AdmissionForm";
+import AdmissionPage from "./components/admissionPage/AdmissionPage";
 import Department from "./components/department/Department";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -27,7 +28,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/admission" element={<Admission />} />
-        <Route path="/admission-form" element={<AdmissionForm />} />
         <Route
           path="/student"
           element={
@@ -37,10 +37,10 @@ function App() {
           }
         />
         <Route
-          path="/teacher"
+          path="/facultyReviewer"
           element={
-            <ProtectedRoute role="teacher">
-              <TeacherDashboard />
+            <ProtectedRoute role="facultyReviewer">
+              <FacultyReviewerDashboard />
             </ProtectedRoute>
           }
         />
@@ -49,6 +49,14 @@ function App() {
           element={
             <ProtectedRoute role="admin">
               <AdminDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/admissionOfficer"
+          element={
+            <ProtectedRoute role="admissionOfficer">
+              <AdmissionOfficerDashboard />
             </ProtectedRoute>
           }
         />
@@ -67,7 +75,7 @@ function App() {
           }
         />
         <Route
-          path="/campus-life"
+          path="/campus"
           element={
           <CampusLife />
           }
@@ -75,14 +83,22 @@ function App() {
       <Route
         path="/admissionPage"
         element={
-          <AdmissionForm />
+          <AdmissionPage />
         }
       />
 
       <Route path="/department" element={<Department />} />
+
       <Route path="/about" element={<About />} />
+
       <Route path="/contact" element={<Contact />} />
-      <Route path="/nirf" element={<NIRF />}/>
+        
+        <Route
+          path="/nirf"
+          element={
+            <NIRF />
+          }
+        />
         
      </Routes>
     </Router>
