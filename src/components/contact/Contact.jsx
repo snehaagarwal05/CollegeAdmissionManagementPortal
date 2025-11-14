@@ -88,7 +88,7 @@ const Contact = () => {
           <h2 className="news-title">📰 News and Achievements</h2>
 
           <motion.div className="news-card" whileHover={{ scale: 1.02 }}>
-            <img src="/news1.png" alt="news" />
+            <img src="src\components\contact\tie _create-a-thon.png" alt="news" />
             <div>
               <h3>TIE CREATE-A-THON 2025</h3>
               <p>2025-07-03 15:17:37</p>
@@ -96,7 +96,7 @@ const Contact = () => {
           </motion.div>
 
           <motion.div className="news-card" whileHover={{ scale: 1.02 }}>
-            <img src="/news2.png" alt="news" />
+            <img src="src\components\contact\tie_pic2.png" alt="news" />
             <div>
               <h3>12th Regional 3R and Circular Economy Forum</h3>
               <p>2025-07-03 15:17:37</p>
@@ -104,7 +104,7 @@ const Contact = () => {
           </motion.div>
 
           <motion.div className="news-card" whileHover={{ scale: 1.02 }}>
-            <img src="/news1.png" alt="news" />
+            <img src="src\components\contact\tie _create-a-thon.png" alt="news" />
             <div>
               <h3>TIE CREATE-A-THON 2025</h3>
               <p>2025-07-03 15:17:37</p>
@@ -112,7 +112,7 @@ const Contact = () => {
           </motion.div>
 
           <motion.div className="news-card" whileHover={{ scale: 1.02 }}>
-            <img src="/news2.png" alt="news" />
+            <img src="src\components\contact\tie_pic2.png" alt="news" />
             <div>
               <h3>12th Regional 3R and Circular Economy Forum</h3>
               <p>2025-07-03 15:17:37</p>
