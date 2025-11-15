@@ -42,6 +42,7 @@ const Home = () => {
           <p>P:+91 33 2357 XXXX, +91 33 2357 XXXX</p>
         </div>
       </div>
+       <NewsEvents />
       <section className="intro">
         <h2>Technology Institute of Engineering, Kolkata, West Bengal</h2>
         <h3>About Institute of Engineering & Management Trust</h3>
@@ -75,7 +76,7 @@ const Home = () => {
           </li>
         </ul>
       </section>
-      <NewsEvents />
+      
 
       <section className="achievements">
         <h2>Achievements</h2>
