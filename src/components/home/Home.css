@@ -4,6 +4,88 @@
   font-family: "Poppins", sans-serif;
   color: #333;
 }
+.banner-info-section .info-box h2 {
+  color: rgb(255, 255, 255);
+}
+.top-banner {
+  width: 100%;
+  height: 420px;
+  background-image: url("/images/campus-bg.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.banner-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 32, 96, 0.55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.banner-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.banner-subtitle {
+  font-size: 20px;
+  max-width: 800px;
+}
+.banner-subtitle span {
+  color: #ffeb3b;
+  font-weight: 700;
+}
+.banner-info-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.info-box {
+  background: #0056a8;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 2px 6px rgba(199, 190, 190, 0.2);
+}
+.info-box.dark {
+  background: #1d1d1d;
+}
+.info-box h3 {
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+.info-box h2 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+.info-box p {
+  line-height: 1.4rem;
+}
+.floating-cards {
+  margin-top: -60px;      
+  position: relative;
+  z-index: 5;              
+}
+.banner-info-section .info-box {
+  transform: translateY(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.banner-info-section .info-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.28);
+}
 
 section {
   background: white;
