@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import Footer from "../footer/footer";
+import NewsEvents from "./NewsEvents";
 
 
 
@@ -74,6 +75,7 @@ const Home = () => {
           </li>
         </ul>
       </section>
+      <NewsEvents />
 
       <section className="achievements">
         <h2>Achievements</h2>
