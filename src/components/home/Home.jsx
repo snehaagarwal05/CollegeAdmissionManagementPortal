@@ -11,6 +11,36 @@ const Home = () => {
 
   return (
     <div className="home">
+       <div className="top-banner">
+        <div className="banner-overlay">
+          <h1 className="banner-title">Technology Institute of Engineering</h1>
+          <p className="banner-subtitle">
+            Earns <span>A Grade Accreditation</span> from the National Accreditation Council (NAC), Government of India
+          </p>
+        </div>
+      </div>
+      <div className="banner-info-section floating-cards">
+        <div className="info-box">
+          <h2>UG & PG Courses</h2>
+          <p>
+            Explore 16+ industry-oriented programs built for future-ready
+            engineers & managers.
+          </p>
+        </div>
+        <div className="info-box dark">
+          <h2>Beyond Education</h2>
+          <p>
+            200+ extracurricular activities, modern labs, mentoring and
+            innovative ecosystem.
+          </p>
+        </div>
+        <div className="info-box">
+
+          <h2>Have a Question?</h2>
+          <p>E: admissions@tie.edu.in</p>
+          <p>P:+91 33 2357 XXXX, +91 33 2357 XXXX</p>
+        </div>
+      </div>
       <section className="intro">
         <h2>Technology Institute of Engineering, Kolkata, West Bengal</h2>
         <h3>About Institute of Engineering & Management Trust</h3>
