@@ -3,7 +3,7 @@ import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import Footer from "../footer/footer";
 import NewsEvents from "./NewsEvents";
-
+import CampusInfoSection from "./CampusInfoSection";
 
 
 const Home = () => {
@@ -100,6 +100,7 @@ const Home = () => {
           </li>
         </ul>
       </section>
+      <CampusInfoSection />
 
       <section className="recognition-benefits">
         <div className="card">
