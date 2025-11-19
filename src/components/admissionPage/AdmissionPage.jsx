@@ -247,11 +247,10 @@ const AdmissionForm = () => {
               <label>Course Applied For *</label>
               <select name="course" value={formData.course} onChange={handleChange} required>
                 <option value="">Select Course</option>
-                <option value="B.Tech - Computer Science">B.Tech - Computer Science & Engineering</option>
-                <option value="B.Tech - AI & ML">B.Tech - Artificial Intelligence & ML</option>
-                <option value="B.Tech - IoT">B.Tech - IoT and Cyber Security</option>
-                <option value="M.Tech - CSE">M.Tech - Computer Science & Engineering</option>
-                <option value="M.Tech - ECE">M.Tech - Electronics and Communications</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="B.Sc">B.Sc</option>
+                <option value="M.Sc">M.Sc</option>
+                <option value="M.Tech">M.Tech</option>
                 <option value="MBA">MBA - General/Business Analytics</option>
                 <option value="BBA">BBA</option>
                 <option value="MCA">MCA</option>
