@@ -9,7 +9,7 @@ const Admission = () => {
   const courses = [
     {
       id: 1,
-      name: 'B.Tech - Computer Science & Engineering',
+      name: 'B.Tech',
       duration: '4 Years',
       qualification: '10+2 with Physics, Chemistry, and Mathematics (Min 60%)',
       fees: '₹1,20,000 per year',
@@ -17,39 +17,31 @@ const Admission = () => {
     },
     {
       id: 2,
-      name: 'B.Tech - Artificial Intelligence & ML',
+      name: 'B.Sc',
       duration: '4 Years',
       qualification: '10+2 with PCM (Min 60%)',
       fees: '₹1,30,000 per year',
-      eligibility: 'JEE Main / WBJEE qualified'
+      eligibility: 'Merit-based admission'
     },
     {
       id: 3,
-      name: 'B.Tech - IoT and Cyber Security',
+      name: 'M.Sc',
       duration: '4 Years',
       qualification: '10+2 with Physics, Chemistry, and Mathematics (Min 60%)',
       fees: '₹1,25,000 per year',
-      eligibility: 'JEE Main / WBJEE qualified'
+      eligibility: 'Merit-based admission'
     },
     {
       id: 4,
-      name: 'M.Tech - Computer Science & Engineering',
+      name: 'M.Tech',
       duration: '2 Years',
       qualification: 'B.Tech/B.E. in relevant field (Min 60%)',
       fees: '₹90,000 per year',
       eligibility: 'GATE qualified'
     },
     {
-      id: 5,
-      name: 'M.Tech - Electronics and Communications',
-      duration: '2 Years',
-      qualification: 'B.Tech/B.E. in ECE/EEE (Min 60%)',
-      fees: '₹85,000 per year',
-      eligibility: 'GATE qualified'
-    },
-    {
       id: 6,
-      name: 'MBA - General/Business Analytics',
+      name: 'MBA',
       duration: '2 Years',
       qualification: 'Bachelor\'s Degree in any discipline (Min 50%)',
       fees: '₹1,50,000 per year',
